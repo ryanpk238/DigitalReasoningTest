@@ -1,0 +1,198 @@
+<?xml version="1.0"?><object javaVersion="1.8.0_92" class="test.test3">
+<properties>
+<property name="alBoundaries" type="ArrayList[String]" description="Contains known sentence boundaries from text input">
+<propertyValue index="0">\n</propertyValue>
+<propertyValue index="1">."</propertyValue>
+<propertyValue index="2">? </propertyValue>
+<propertyValue index="3">. </propertyValue>
+<propertyValue index="4">. </propertyValue>
+<propertyValue index="5">! </propertyValue>
+</property>
+
+<property name="alNames" type="ArrayList[String]" description="Contains proper nouns/names from text input">
+<propertyValue index="0">Ernst Haeckel</propertyValue>
+<propertyValue index="1">Franz Ferdinand</propertyValue>
+<propertyValue index="2">Gavrilo Princip</propertyValue>
+<propertyValue index="3">Germany</propertyValue>
+<propertyValue index="4">Austria-Hungary</propertyValue>
+<propertyValue index="5">Yugoslavia</propertyValue>
+<propertyValue index="6">Serbia</propertyValue>
+<propertyValue index="7">Sarajevo</propertyValue>
+<propertyValue index="8">Europe</propertyValue>
+<propertyValue index="9">Euclid</propertyValue>
+<propertyValue index="10">Elements</propertyValue>
+<propertyValue index="11">Venice</propertyValue>
+<propertyValue index="12">Carl Benjamin Boyer</propertyValue>
+<propertyValue index="13">Bible</propertyValue>
+<propertyValue index="14">Broyden–Fletcher–Goldfarb–Shanno</propertyValue>
+<propertyValue index="15">Newton</propertyValue>
+<propertyValue index="16">BFGS</propertyValue>
+<propertyValue index="17">Montgomery Castle</propertyValue>
+<propertyValue index="18">Powys</propertyValue>
+<propertyValue index="19">Wales</propertyValue>
+<propertyValue index="20">England</propertyValue>
+<propertyValue index="21">Roger de Montgomery</propertyValue>
+<propertyValue index="22">Robert of Belleme</propertyValue>
+<propertyValue index="23">King Henry III</propertyValue>
+<propertyValue index="24">Llywelyn ap Gruffudd</propertyValue>
+<propertyValue index="25">Prince of Wales</propertyValue>
+<propertyValue index="26">Shrewsbury</propertyValue>
+<propertyValue index="27">Antikythera</propertyValue>
+<propertyValue index="28">Olympic Games</propertyValue>
+<propertyValue index="29">Japan</propertyValue>
+<propertyValue index="30">North America</propertyValue>
+<propertyValue index="31">Sun Microsystems</propertyValue>
+<propertyValue index="32">Sun</propertyValue>
+<propertyValue index="33">Oracle Corporation</propertyValue>
+<propertyValue index="34">Apollo 11</propertyValue>
+<propertyValue index="35">Neil Armstrong</propertyValue>
+<propertyValue index="36">Buzz Aldrin</propertyValue>
+<propertyValue index="37">Michael Collins</propertyValue>
+<propertyValue index="38">Moon</propertyValue>
+<propertyValue index="39">Sea of Tranquility</propertyValue>
+<propertyValue index="40">Earth</propertyValue>
+<propertyValue index="41">Pacific Ocean</propertyValue>
+<propertyValue index="42">James Clerk Maxwell</propertyValue>
+<propertyValue index="43">Isaac Newton</propertyValue>
+<propertyValue index="44">Albert Einstein</propertyValue>
+<propertyValue index="45"></propertyValue>
+</property>
+
+<property name="workerThread" type="object" description="workerThread inner class - spun off as a thread">
+<innerObject>
+<properties>
+
+<property name="alSentences" type="ArrayList[String]" description="Contains sentences from text input">
+<propertyValue index="0">A differentiable manifold is a type of manifold that is locally similar enough to a linear space to allow one to do calculus. </propertyValue>
+<propertyValue index="1">Any manifold can be described by a collection of charts, also known as an atlas. </propertyValue>
+<propertyValue index="2">One may then apply ideas from calculus while working within the individual charts, since each chart lies within a linear space to which the usual rules of calculus apply. </propertyValue>
+<propertyValue index="3">If the charts are suitably compatible (namely, the transition from one chart to another is differentiable), then computations done in one chart are valid in any other differentiable chart. </propertyValue>
+</property>
+
+<property name="alWords" type="ArrayList[String]" description="Contains words from text input">
+<propertyValue index="0">A</propertyValue>
+<propertyValue index="1">differentiable</propertyValue>
+<propertyValue index="2">manifold</propertyValue>
+<propertyValue index="3">is</propertyValue>
+<propertyValue index="4">a</propertyValue>
+<propertyValue index="5">type</propertyValue>
+<propertyValue index="6">of</propertyValue>
+<propertyValue index="7">manifold</propertyValue>
+<propertyValue index="8">that</propertyValue>
+<propertyValue index="9">is</propertyValue>
+<propertyValue index="10">locally</propertyValue>
+<propertyValue index="11">similar</propertyValue>
+<propertyValue index="12">enough</propertyValue>
+<propertyValue index="13">to</propertyValue>
+<propertyValue index="14">a</propertyValue>
+<propertyValue index="15">linear</propertyValue>
+<propertyValue index="16">space</propertyValue>
+<propertyValue index="17">to</propertyValue>
+<propertyValue index="18">allow</propertyValue>
+<propertyValue index="19">one</propertyValue>
+<propertyValue index="20">to</propertyValue>
+<propertyValue index="21">do</propertyValue>
+<propertyValue index="22">calculus.|</propertyValue>
+<propertyValue index="23">Any</propertyValue>
+<propertyValue index="24">manifold</propertyValue>
+<propertyValue index="25">can</propertyValue>
+<propertyValue index="26">be</propertyValue>
+<propertyValue index="27">described</propertyValue>
+<propertyValue index="28">by</propertyValue>
+<propertyValue index="29">a</propertyValue>
+<propertyValue index="30">collection</propertyValue>
+<propertyValue index="31">of</propertyValue>
+<propertyValue index="32">charts,</propertyValue>
+<propertyValue index="33">also</propertyValue>
+<propertyValue index="34">known</propertyValue>
+<propertyValue index="35">as</propertyValue>
+<propertyValue index="36">an</propertyValue>
+<propertyValue index="37">atlas.|</propertyValue>
+<propertyValue index="38">One</propertyValue>
+<propertyValue index="39">may</propertyValue>
+<propertyValue index="40">then</propertyValue>
+<propertyValue index="41">apply</propertyValue>
+<propertyValue index="42">ideas</propertyValue>
+<propertyValue index="43">from</propertyValue>
+<propertyValue index="44">calculus</propertyValue>
+<propertyValue index="45">while</propertyValue>
+<propertyValue index="46">working</propertyValue>
+<propertyValue index="47">within</propertyValue>
+<propertyValue index="48">the</propertyValue>
+<propertyValue index="49">individual</propertyValue>
+<propertyValue index="50">charts,</propertyValue>
+<propertyValue index="51">since</propertyValue>
+<propertyValue index="52">each</propertyValue>
+<propertyValue index="53">chart</propertyValue>
+<propertyValue index="54">lies</propertyValue>
+<propertyValue index="55">within</propertyValue>
+<propertyValue index="56">a</propertyValue>
+<propertyValue index="57">linear</propertyValue>
+<propertyValue index="58">space</propertyValue>
+<propertyValue index="59">to</propertyValue>
+<propertyValue index="60">which</propertyValue>
+<propertyValue index="61">the</propertyValue>
+<propertyValue index="62">usual</propertyValue>
+<propertyValue index="63">rules</propertyValue>
+<propertyValue index="64">of</propertyValue>
+<propertyValue index="65">calculus</propertyValue>
+<propertyValue index="66">apply.|</propertyValue>
+<propertyValue index="67">If</propertyValue>
+<propertyValue index="68">the</propertyValue>
+<propertyValue index="69">charts</propertyValue>
+<propertyValue index="70">are</propertyValue>
+<propertyValue index="71">suitably</propertyValue>
+<propertyValue index="72">compatible</propertyValue>
+<propertyValue index="73">(namely,</propertyValue>
+<propertyValue index="74">the</propertyValue>
+<propertyValue index="75">transition</propertyValue>
+<propertyValue index="76">from</propertyValue>
+<propertyValue index="77">one</propertyValue>
+<propertyValue index="78">chart</propertyValue>
+<propertyValue index="79">to</propertyValue>
+<propertyValue index="80">another</propertyValue>
+<propertyValue index="81">is</propertyValue>
+<propertyValue index="82">differentiable),</propertyValue>
+<propertyValue index="83">then</propertyValue>
+<propertyValue index="84">computations</propertyValue>
+<propertyValue index="85">done</propertyValue>
+<propertyValue index="86">in</propertyValue>
+<propertyValue index="87">one</propertyValue>
+<propertyValue index="88">chart</propertyValue>
+<propertyValue index="89">are</propertyValue>
+<propertyValue index="90">valid</propertyValue>
+<propertyValue index="91">in</propertyValue>
+<propertyValue index="92">any</propertyValue>
+<propertyValue index="93">other</propertyValue>
+<propertyValue index="94">differentiable</propertyValue>
+<propertyValue index="95">chart.|</propertyValue>
+</property>
+
+<property name="strFile" type="String" description="String denoting input file (txt) for data (e.g. d01.txt)">
+</property>
+
+<property name="strOutFile" type="String" description="String denoting output file (XML) for data (e.g. d01.xml)">
+</property>
+</properties>
+
+<methods>
+<method name="WorkerThread" parameters="[String],[String]" description="WorkerThread Class Constructor"></method>
+<method name="Left" parameters="[String],[int]" description="Returns characters from left side of a string"></method>
+<method name="Right" parameters="[String],[int]" description="Returns characters from right side of a string"></method>
+<method name="assembleSentences()" parameters="" description="Assembles text input words into sentences and stores in ArrayList[String]"></method>
+<method name="getByWord" parameters="" description="Gets words from text input and stores in ArrayList[String]"></method>
+<method name="getNames" parameters="[String]" description="Marks words that fall at the end of a sentence"></method>
+<method name="isEndWord" parameters="[String]" description="Marks words that fall at the end of a sentence"></method>
+<method name="outputToXML" parameters="[String]" description="Outputs object schema in readable XML"></method>
+<method name="processCommand" parameters="" description="Outputs object schema in readable XML"></method>
+<method name="run" parameters="" description="Outputs object schema in readable XML"></method>
+<method name="tagNames" parameters="" description="Marks proper nouns/names in sentences by surrounding with properNoun tags"></method>
+<method name="writeToFile" parameters="[String],[String]" description="Writes data to a file"></method>
+</methods>
+</innerObject>
+</property>
+</properties>
+
+<methods>
+<method name="createFolder" parameters="[String]" description="Creates output folder if it doesn't exist"></method>
+</methods></object>

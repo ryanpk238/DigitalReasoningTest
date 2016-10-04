@@ -1,0 +1,201 @@
+<?xml version="1.0"?><object javaVersion="1.8.0_92" class="test.test3">
+<properties>
+<property name="alBoundaries" type="ArrayList[String]" description="Contains known sentence boundaries from text input">
+<propertyValue index="0">\n</propertyValue>
+<propertyValue index="1">."</propertyValue>
+<propertyValue index="2">? </propertyValue>
+<propertyValue index="3">. </propertyValue>
+<propertyValue index="4">. </propertyValue>
+<propertyValue index="5">! </propertyValue>
+</property>
+
+<property name="alNames" type="ArrayList[String]" description="Contains proper nouns/names from text input">
+<propertyValue index="0">Ernst Haeckel</propertyValue>
+<propertyValue index="1">Franz Ferdinand</propertyValue>
+<propertyValue index="2">Gavrilo Princip</propertyValue>
+<propertyValue index="3">Germany</propertyValue>
+<propertyValue index="4">Austria-Hungary</propertyValue>
+<propertyValue index="5">Yugoslavia</propertyValue>
+<propertyValue index="6">Serbia</propertyValue>
+<propertyValue index="7">Sarajevo</propertyValue>
+<propertyValue index="8">Europe</propertyValue>
+<propertyValue index="9">Euclid</propertyValue>
+<propertyValue index="10">Elements</propertyValue>
+<propertyValue index="11">Venice</propertyValue>
+<propertyValue index="12">Carl Benjamin Boyer</propertyValue>
+<propertyValue index="13">Bible</propertyValue>
+<propertyValue index="14">Broyden–Fletcher–Goldfarb–Shanno</propertyValue>
+<propertyValue index="15">Newton</propertyValue>
+<propertyValue index="16">BFGS</propertyValue>
+<propertyValue index="17">Montgomery Castle</propertyValue>
+<propertyValue index="18">Powys</propertyValue>
+<propertyValue index="19">Wales</propertyValue>
+<propertyValue index="20">England</propertyValue>
+<propertyValue index="21">Roger de Montgomery</propertyValue>
+<propertyValue index="22">Robert of Belleme</propertyValue>
+<propertyValue index="23">King Henry III</propertyValue>
+<propertyValue index="24">Llywelyn ap Gruffudd</propertyValue>
+<propertyValue index="25">Prince of Wales</propertyValue>
+<propertyValue index="26">Shrewsbury</propertyValue>
+<propertyValue index="27">Antikythera</propertyValue>
+<propertyValue index="28">Olympic Games</propertyValue>
+<propertyValue index="29">Japan</propertyValue>
+<propertyValue index="30">North America</propertyValue>
+<propertyValue index="31">Sun Microsystems</propertyValue>
+<propertyValue index="32">Sun</propertyValue>
+<propertyValue index="33">Oracle Corporation</propertyValue>
+<propertyValue index="34">Apollo 11</propertyValue>
+<propertyValue index="35">Neil Armstrong</propertyValue>
+<propertyValue index="36">Buzz Aldrin</propertyValue>
+<propertyValue index="37">Michael Collins</propertyValue>
+<propertyValue index="38">Moon</propertyValue>
+<propertyValue index="39">Sea of Tranquility</propertyValue>
+<propertyValue index="40">Earth</propertyValue>
+<propertyValue index="41">Pacific Ocean</propertyValue>
+<propertyValue index="42">James Clerk Maxwell</propertyValue>
+<propertyValue index="43">Isaac Newton</propertyValue>
+<propertyValue index="44">Albert Einstein</propertyValue>
+<propertyValue index="45"></propertyValue>
+</property>
+
+<property name="workerThread" type="object" description="workerThread inner class - spun off as a thread">
+<innerObject>
+<properties>
+
+<property name="alSentences" type="ArrayList[String]" description="Contains sentences from text input">
+<propertyValue index="0"><properNoun>Apollo 11</properNoun> was the spaceflight that landed the first humans on the <properNoun>Moon</properNoun>, Americans <properNoun>Neil Armstrong</properNoun> and <properNoun>Buzz Aldrin</properNoun>, on July 20, 1969. </propertyValue>
+<propertyValue index="1">Armstrong became the first to step onto the lunar surface six hours later. </propertyValue>
+<propertyValue index="2">Armstrong spent about two and a half hours outside the spacecraft, Aldrin slightly less, and together they collected 47.5 pounds (21.5 kg) of lunar material for return to <properNoun>Earth</properNoun>. </propertyValue>
+<propertyValue index="3">The third member of the mission, <properNoun>Michael Collins</properNoun>, piloted the command spacecraft alone in lunar orbit until Armstrong and Aldrin returned to it just under a day later for the trip back to <properNoun>Earth</properNoun>. </propertyValue>
+</property>
+
+<property name="alWords" type="ArrayList[String]" description="Contains words from text input">
+<propertyValue index="0">Apollo</propertyValue>
+<propertyValue index="1">11</propertyValue>
+<propertyValue index="2">was</propertyValue>
+<propertyValue index="3">the</propertyValue>
+<propertyValue index="4">spaceflight</propertyValue>
+<propertyValue index="5">that</propertyValue>
+<propertyValue index="6">landed</propertyValue>
+<propertyValue index="7">the</propertyValue>
+<propertyValue index="8">first</propertyValue>
+<propertyValue index="9">humans</propertyValue>
+<propertyValue index="10">on</propertyValue>
+<propertyValue index="11">the</propertyValue>
+<propertyValue index="12">Moon,</propertyValue>
+<propertyValue index="13">Americans</propertyValue>
+<propertyValue index="14">Neil</propertyValue>
+<propertyValue index="15">Armstrong</propertyValue>
+<propertyValue index="16">and</propertyValue>
+<propertyValue index="17">Buzz</propertyValue>
+<propertyValue index="18">Aldrin,</propertyValue>
+<propertyValue index="19">on</propertyValue>
+<propertyValue index="20">July</propertyValue>
+<propertyValue index="21">20,</propertyValue>
+<propertyValue index="22">1969.|</propertyValue>
+<propertyValue index="23">Armstrong</propertyValue>
+<propertyValue index="24">became</propertyValue>
+<propertyValue index="25">the</propertyValue>
+<propertyValue index="26">first</propertyValue>
+<propertyValue index="27">to</propertyValue>
+<propertyValue index="28">step</propertyValue>
+<propertyValue index="29">onto</propertyValue>
+<propertyValue index="30">the</propertyValue>
+<propertyValue index="31">lunar</propertyValue>
+<propertyValue index="32">surface</propertyValue>
+<propertyValue index="33">six</propertyValue>
+<propertyValue index="34">hours</propertyValue>
+<propertyValue index="35">later.|</propertyValue>
+<propertyValue index="36">Armstrong</propertyValue>
+<propertyValue index="37">spent</propertyValue>
+<propertyValue index="38">about</propertyValue>
+<propertyValue index="39">two</propertyValue>
+<propertyValue index="40">and</propertyValue>
+<propertyValue index="41">a</propertyValue>
+<propertyValue index="42">half</propertyValue>
+<propertyValue index="43">hours</propertyValue>
+<propertyValue index="44">outside</propertyValue>
+<propertyValue index="45">the</propertyValue>
+<propertyValue index="46">spacecraft,</propertyValue>
+<propertyValue index="47">Aldrin</propertyValue>
+<propertyValue index="48">slightly</propertyValue>
+<propertyValue index="49">less,</propertyValue>
+<propertyValue index="50">and</propertyValue>
+<propertyValue index="51">together</propertyValue>
+<propertyValue index="52">they</propertyValue>
+<propertyValue index="53">collected</propertyValue>
+<propertyValue index="54">47.5</propertyValue>
+<propertyValue index="55">pounds</propertyValue>
+<propertyValue index="56">(21.5</propertyValue>
+<propertyValue index="57">kg)</propertyValue>
+<propertyValue index="58">of</propertyValue>
+<propertyValue index="59">lunar</propertyValue>
+<propertyValue index="60">material</propertyValue>
+<propertyValue index="61">for</propertyValue>
+<propertyValue index="62">return</propertyValue>
+<propertyValue index="63">to</propertyValue>
+<propertyValue index="64">Earth.|</propertyValue>
+<propertyValue index="65">The</propertyValue>
+<propertyValue index="66">third</propertyValue>
+<propertyValue index="67">member</propertyValue>
+<propertyValue index="68">of</propertyValue>
+<propertyValue index="69">the</propertyValue>
+<propertyValue index="70">mission,</propertyValue>
+<propertyValue index="71">Michael</propertyValue>
+<propertyValue index="72">Collins,</propertyValue>
+<propertyValue index="73">piloted</propertyValue>
+<propertyValue index="74">the</propertyValue>
+<propertyValue index="75">command</propertyValue>
+<propertyValue index="76">spacecraft</propertyValue>
+<propertyValue index="77">alone</propertyValue>
+<propertyValue index="78">in</propertyValue>
+<propertyValue index="79">lunar</propertyValue>
+<propertyValue index="80">orbit</propertyValue>
+<propertyValue index="81">until</propertyValue>
+<propertyValue index="82">Armstrong</propertyValue>
+<propertyValue index="83">and</propertyValue>
+<propertyValue index="84">Aldrin</propertyValue>
+<propertyValue index="85">returned</propertyValue>
+<propertyValue index="86">to</propertyValue>
+<propertyValue index="87">it</propertyValue>
+<propertyValue index="88">just</propertyValue>
+<propertyValue index="89">under</propertyValue>
+<propertyValue index="90">a</propertyValue>
+<propertyValue index="91">day</propertyValue>
+<propertyValue index="92">later</propertyValue>
+<propertyValue index="93">for</propertyValue>
+<propertyValue index="94">the</propertyValue>
+<propertyValue index="95">trip</propertyValue>
+<propertyValue index="96">back</propertyValue>
+<propertyValue index="97">to</propertyValue>
+<propertyValue index="98">Earth.|</propertyValue>
+</property>
+
+<property name="strFile" type="String" description="String denoting input file (txt) for data (e.g. d01.txt)">
+</property>
+
+<property name="strOutFile" type="String" description="String denoting output file (XML) for data (e.g. d01.xml)">
+</property>
+</properties>
+
+<methods>
+<method name="WorkerThread" parameters="[String],[String]" description="WorkerThread Class Constructor"></method>
+<method name="Left" parameters="[String],[int]" description="Returns characters from left side of a string"></method>
+<method name="Right" parameters="[String],[int]" description="Returns characters from right side of a string"></method>
+<method name="assembleSentences()" parameters="" description="Assembles text input words into sentences and stores in ArrayList[String]"></method>
+<method name="getByWord" parameters="" description="Gets words from text input and stores in ArrayList[String]"></method>
+<method name="getNames" parameters="[String]" description="Marks words that fall at the end of a sentence"></method>
+<method name="isEndWord" parameters="[String]" description="Marks words that fall at the end of a sentence"></method>
+<method name="outputToXML" parameters="[String]" description="Outputs object schema in readable XML"></method>
+<method name="processCommand" parameters="" description="Outputs object schema in readable XML"></method>
+<method name="run" parameters="" description="Outputs object schema in readable XML"></method>
+<method name="tagNames" parameters="" description="Marks proper nouns/names in sentences by surrounding with properNoun tags"></method>
+<method name="writeToFile" parameters="[String],[String]" description="Writes data to a file"></method>
+</methods>
+</innerObject>
+</property>
+</properties>
+
+<methods>
+<method name="createFolder" parameters="[String]" description="Creates output folder if it doesn't exist"></method>
+</methods></object>

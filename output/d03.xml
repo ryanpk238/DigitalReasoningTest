@@ -1,0 +1,223 @@
+<?xml version="1.0"?><object javaVersion="1.8.0_92" class="test.test3">
+<properties>
+<property name="alBoundaries" type="ArrayList[String]" description="Contains known sentence boundaries from text input">
+<propertyValue index="0">\n</propertyValue>
+<propertyValue index="1">."</propertyValue>
+<propertyValue index="2">? </propertyValue>
+<propertyValue index="3">. </propertyValue>
+<propertyValue index="4">. </propertyValue>
+<propertyValue index="5">! </propertyValue>
+</property>
+
+<property name="alNames" type="ArrayList[String]" description="Contains proper nouns/names from text input">
+<propertyValue index="0">Ernst Haeckel</propertyValue>
+<propertyValue index="1">Franz Ferdinand</propertyValue>
+<propertyValue index="2">Gavrilo Princip</propertyValue>
+<propertyValue index="3">Germany</propertyValue>
+<propertyValue index="4">Austria-Hungary</propertyValue>
+<propertyValue index="5">Yugoslavia</propertyValue>
+<propertyValue index="6">Serbia</propertyValue>
+<propertyValue index="7">Sarajevo</propertyValue>
+<propertyValue index="8">Europe</propertyValue>
+<propertyValue index="9">Euclid</propertyValue>
+<propertyValue index="10">Elements</propertyValue>
+<propertyValue index="11">Venice</propertyValue>
+<propertyValue index="12">Carl Benjamin Boyer</propertyValue>
+<propertyValue index="13">Bible</propertyValue>
+<propertyValue index="14">Broyden–Fletcher–Goldfarb–Shanno</propertyValue>
+<propertyValue index="15">Newton</propertyValue>
+<propertyValue index="16">BFGS</propertyValue>
+<propertyValue index="17">Montgomery Castle</propertyValue>
+<propertyValue index="18">Powys</propertyValue>
+<propertyValue index="19">Wales</propertyValue>
+<propertyValue index="20">England</propertyValue>
+<propertyValue index="21">Roger de Montgomery</propertyValue>
+<propertyValue index="22">Robert of Belleme</propertyValue>
+<propertyValue index="23">King Henry III</propertyValue>
+<propertyValue index="24">Llywelyn ap Gruffudd</propertyValue>
+<propertyValue index="25">Prince of Wales</propertyValue>
+<propertyValue index="26">Shrewsbury</propertyValue>
+<propertyValue index="27">Antikythera</propertyValue>
+<propertyValue index="28">Olympic Games</propertyValue>
+<propertyValue index="29">Japan</propertyValue>
+<propertyValue index="30">North America</propertyValue>
+<propertyValue index="31">Sun Microsystems</propertyValue>
+<propertyValue index="32">Sun</propertyValue>
+<propertyValue index="33">Oracle Corporation</propertyValue>
+<propertyValue index="34">Apollo 11</propertyValue>
+<propertyValue index="35">Neil Armstrong</propertyValue>
+<propertyValue index="36">Buzz Aldrin</propertyValue>
+<propertyValue index="37">Michael Collins</propertyValue>
+<propertyValue index="38">Moon</propertyValue>
+<propertyValue index="39">Sea of Tranquility</propertyValue>
+<propertyValue index="40">Earth</propertyValue>
+<propertyValue index="41">Pacific Ocean</propertyValue>
+<propertyValue index="42">James Clerk Maxwell</propertyValue>
+<propertyValue index="43">Isaac Newton</propertyValue>
+<propertyValue index="44">Albert Einstein</propertyValue>
+<propertyValue index="45"></propertyValue>
+</property>
+
+<property name="workerThread" type="object" description="workerThread inner class - spun off as a thread">
+<innerObject>
+<properties>
+
+<property name="alSentences" type="ArrayList[String]" description="Contains sentences from text input">
+<propertyValue index="0"><properNoun>Montgomery Castle</properNoun> is a stone masonry castle looking over the town of Montgomery in <properNoun>Powys</properNoun>, <properNoun>Wales</properNoun>. </propertyValue>
+<propertyValue index="1">It is one of many Norman castles on the border between <properNoun>Wales</properNoun> and <properNoun>England</properNoun>. </propertyValue>
+<propertyValue index="2">The original castle was built at the order of <properNoun>Roger de Montgomery</properNoun>, earl of <properNoun>Shrewsbury</properNoun> sometime between 1071 and 1074. </propertyValue>
+<propertyValue index="3">On the rebellion of his son <properNoun>Robert of Belleme</properNoun> in 1102, the castle was given to Baldwin de Boulers. </propertyValue>
+<propertyValue index="4">In 1267 Montgomery was the meeting place for treaty negotiations, where <properNoun>King Henry III</properNoun> granted <properNoun>Llywelyn ap Gruffudd</properNoun> the title of Prince of <properNoun>Wales</properNoun>. </propertyValue>
+<propertyValue index="5">After 1295 and the final Welsh War of the thirteenth century the castle became more of a military backwater and prison than a front line fortress. </propertyValue>
+</property>
+
+<property name="alWords" type="ArrayList[String]" description="Contains words from text input">
+<propertyValue index="0">Montgomery</propertyValue>
+<propertyValue index="1">Castle</propertyValue>
+<propertyValue index="2">is</propertyValue>
+<propertyValue index="3">a</propertyValue>
+<propertyValue index="4">stone</propertyValue>
+<propertyValue index="5">masonry</propertyValue>
+<propertyValue index="6">castle</propertyValue>
+<propertyValue index="7">looking</propertyValue>
+<propertyValue index="8">over</propertyValue>
+<propertyValue index="9">the</propertyValue>
+<propertyValue index="10">town</propertyValue>
+<propertyValue index="11">of</propertyValue>
+<propertyValue index="12">Montgomery</propertyValue>
+<propertyValue index="13">in</propertyValue>
+<propertyValue index="14">Powys,</propertyValue>
+<propertyValue index="15">Wales.|</propertyValue>
+<propertyValue index="16">It</propertyValue>
+<propertyValue index="17">is</propertyValue>
+<propertyValue index="18">one</propertyValue>
+<propertyValue index="19">of</propertyValue>
+<propertyValue index="20">many</propertyValue>
+<propertyValue index="21">Norman</propertyValue>
+<propertyValue index="22">castles</propertyValue>
+<propertyValue index="23">on</propertyValue>
+<propertyValue index="24">the</propertyValue>
+<propertyValue index="25">border</propertyValue>
+<propertyValue index="26">between</propertyValue>
+<propertyValue index="27">Wales</propertyValue>
+<propertyValue index="28">and</propertyValue>
+<propertyValue index="29">England.|</propertyValue>
+<propertyValue index="30">The</propertyValue>
+<propertyValue index="31">original</propertyValue>
+<propertyValue index="32">castle</propertyValue>
+<propertyValue index="33">was</propertyValue>
+<propertyValue index="34">built</propertyValue>
+<propertyValue index="35">at</propertyValue>
+<propertyValue index="36">the</propertyValue>
+<propertyValue index="37">order</propertyValue>
+<propertyValue index="38">of</propertyValue>
+<propertyValue index="39">Roger</propertyValue>
+<propertyValue index="40">de</propertyValue>
+<propertyValue index="41">Montgomery,</propertyValue>
+<propertyValue index="42">earl</propertyValue>
+<propertyValue index="43">of</propertyValue>
+<propertyValue index="44">Shrewsbury</propertyValue>
+<propertyValue index="45">sometime</propertyValue>
+<propertyValue index="46">between</propertyValue>
+<propertyValue index="47">1071</propertyValue>
+<propertyValue index="48">and</propertyValue>
+<propertyValue index="49">1074.|</propertyValue>
+<propertyValue index="50">On</propertyValue>
+<propertyValue index="51">the</propertyValue>
+<propertyValue index="52">rebellion</propertyValue>
+<propertyValue index="53">of</propertyValue>
+<propertyValue index="54">his</propertyValue>
+<propertyValue index="55">son</propertyValue>
+<propertyValue index="56">Robert</propertyValue>
+<propertyValue index="57">of</propertyValue>
+<propertyValue index="58">Belleme</propertyValue>
+<propertyValue index="59">in</propertyValue>
+<propertyValue index="60">1102,</propertyValue>
+<propertyValue index="61">the</propertyValue>
+<propertyValue index="62">castle</propertyValue>
+<propertyValue index="63">was</propertyValue>
+<propertyValue index="64">given</propertyValue>
+<propertyValue index="65">to</propertyValue>
+<propertyValue index="66">Baldwin</propertyValue>
+<propertyValue index="67">de</propertyValue>
+<propertyValue index="68">Boulers.|</propertyValue>
+<propertyValue index="69">In</propertyValue>
+<propertyValue index="70">1267</propertyValue>
+<propertyValue index="71">Montgomery</propertyValue>
+<propertyValue index="72">was</propertyValue>
+<propertyValue index="73">the</propertyValue>
+<propertyValue index="74">meeting</propertyValue>
+<propertyValue index="75">place</propertyValue>
+<propertyValue index="76">for</propertyValue>
+<propertyValue index="77">treaty</propertyValue>
+<propertyValue index="78">negotiations,</propertyValue>
+<propertyValue index="79">where</propertyValue>
+<propertyValue index="80">King</propertyValue>
+<propertyValue index="81">Henry</propertyValue>
+<propertyValue index="82">III</propertyValue>
+<propertyValue index="83">granted</propertyValue>
+<propertyValue index="84">Llywelyn</propertyValue>
+<propertyValue index="85">ap</propertyValue>
+<propertyValue index="86">Gruffudd</propertyValue>
+<propertyValue index="87">the</propertyValue>
+<propertyValue index="88">title</propertyValue>
+<propertyValue index="89">of</propertyValue>
+<propertyValue index="90">Prince</propertyValue>
+<propertyValue index="91">of</propertyValue>
+<propertyValue index="92">Wales.|</propertyValue>
+<propertyValue index="93">After</propertyValue>
+<propertyValue index="94">1295</propertyValue>
+<propertyValue index="95">and</propertyValue>
+<propertyValue index="96">the</propertyValue>
+<propertyValue index="97">final</propertyValue>
+<propertyValue index="98">Welsh</propertyValue>
+<propertyValue index="99">War</propertyValue>
+<propertyValue index="100">of</propertyValue>
+<propertyValue index="101">the</propertyValue>
+<propertyValue index="102">thirteenth</propertyValue>
+<propertyValue index="103">century</propertyValue>
+<propertyValue index="104">the</propertyValue>
+<propertyValue index="105">castle</propertyValue>
+<propertyValue index="106">became</propertyValue>
+<propertyValue index="107">more</propertyValue>
+<propertyValue index="108">of</propertyValue>
+<propertyValue index="109">a</propertyValue>
+<propertyValue index="110">military</propertyValue>
+<propertyValue index="111">backwater</propertyValue>
+<propertyValue index="112">and</propertyValue>
+<propertyValue index="113">prison</propertyValue>
+<propertyValue index="114">than</propertyValue>
+<propertyValue index="115">a</propertyValue>
+<propertyValue index="116">front</propertyValue>
+<propertyValue index="117">line</propertyValue>
+<propertyValue index="118">fortress.|</propertyValue>
+</property>
+
+<property name="strFile" type="String" description="String denoting input file (txt) for data (e.g. d01.txt)">
+</property>
+
+<property name="strOutFile" type="String" description="String denoting output file (XML) for data (e.g. d01.xml)">
+</property>
+</properties>
+
+<methods>
+<method name="WorkerThread" parameters="[String],[String]" description="WorkerThread Class Constructor"></method>
+<method name="Left" parameters="[String],[int]" description="Returns characters from left side of a string"></method>
+<method name="Right" parameters="[String],[int]" description="Returns characters from right side of a string"></method>
+<method name="assembleSentences()" parameters="" description="Assembles text input words into sentences and stores in ArrayList[String]"></method>
+<method name="getByWord" parameters="" description="Gets words from text input and stores in ArrayList[String]"></method>
+<method name="getNames" parameters="[String]" description="Marks words that fall at the end of a sentence"></method>
+<method name="isEndWord" parameters="[String]" description="Marks words that fall at the end of a sentence"></method>
+<method name="outputToXML" parameters="[String]" description="Outputs object schema in readable XML"></method>
+<method name="processCommand" parameters="" description="Outputs object schema in readable XML"></method>
+<method name="run" parameters="" description="Outputs object schema in readable XML"></method>
+<method name="tagNames" parameters="" description="Marks proper nouns/names in sentences by surrounding with properNoun tags"></method>
+<method name="writeToFile" parameters="[String],[String]" description="Writes data to a file"></method>
+</methods>
+</innerObject>
+</property>
+</properties>
+
+<methods>
+<method name="createFolder" parameters="[String]" description="Creates output folder if it doesn't exist"></method>
+</methods></object>
